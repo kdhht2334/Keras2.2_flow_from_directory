@@ -4,8 +4,9 @@ Method to extend `flow_from_directory` function of Keras library
 
 In this repository, we show how to extend the functionality of `flow_from_directory` function of Keras.
 
-<img align="center" width="100" height="100" src="/images/keras.jpg">
-
+<p align="center">
+  <img width="100" height="100" src="/images/keras.jpg">
+</p>
 
 -----
 ### Usage
