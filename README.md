@@ -93,7 +93,8 @@ train_generator2 = train_datagen.flow_from_directory(
 ```
 <br>
 -----
-### Milestone
+
+####Milestone
 
 - [x] Add our own `iterator.py`
 
