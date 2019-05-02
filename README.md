@@ -4,7 +4,10 @@ Method to extend `flow_from_directory` function of Keras library
 
 In this repository, we show how to extend the functionality of `flow_from_directory` function of Keras.
 
-![Keras](./images/keras.jpg)
+<p align="center">
+  ![Keras](./images/keras.jpg)
+</p>
+
 
 -----
 ### Usage
@@ -92,8 +95,12 @@ train_generator2 = train_datagen.flow_from_directory(
 -----
 ### Milestone
 
-[v] Add classification task example
+- [x] Add our own `iterator.py`
 
-[v] Add colorization task example
+- [x] Add classification task example
 
-[v] Add Kullback-Leibler divergence example
+- [x] Add colorization task example
+
+- [x] Add Kullback-Leibler divergence example
+
+- [] Add another tasks
