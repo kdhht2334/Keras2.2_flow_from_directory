@@ -1,4 +1,4 @@
-## Keras2.2_flow_from_directory
+## Keras (for above version 2.2) Custom flow_from_directory
 
 <p align="center">
   <img width="200" height="200" src="/images/keras.jpg">
