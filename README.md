@@ -1,12 +1,11 @@
 ## Keras2.2_flow_from_directory
-Method to extend `flow_from_directory` function of Keras library
+
+<p align="center">
+  <img width="200" height="200" src="/images/keras.jpg">
+</p>
 
 
 In this repository, we show how to extend the functionality of `flow_from_directory` function of Keras.
-
-<p align="center">
-  <img width="100" height="100" src="/images/keras.jpg">
-</p>
 
 -----
 ### Usage
