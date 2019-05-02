@@ -91,6 +91,8 @@ train_generator2 = train_datagen.flow_from_directory(
         class_mode="colorize")
 
 ```
+
++4. Run `ex_cls.py --gpus 0`
 <br>
 
 ----
