@@ -10,7 +10,7 @@ In this repository, we show how to extend the functionality of `flow_from_direct
 -----
 ### Usage
 
-+1. Add your training options to `allowed_class_mode` of `DirectoryIterator` class in `directory_iterator.py`.
+* Add your training options to `allowed_class_mode` of `DirectoryIterator` class in `directory_iterator.py`.
 
 (Full path is `anaconda3/envs/tensorflow/lib/python3.6/site-packages/keras_preprocessing/image/directory_iterator.py`)
 
@@ -32,7 +32,7 @@ class DirectoryIterator(BatchFromFilesMixin, Iterator):
 
 <br>
 
-+2. Add your method to `BatchFromFilesMixin` class in `iterator.py`.
+* Add your method to `BatchFromFilesMixin` class in `iterator.py`.
 
 (Full path is `anaconda3/envs/tensorflow/lib/python3.6/site-packages/keras_preprocessing/image/iterator.py`)
 
@@ -75,7 +75,7 @@ def _get_batches_of_transformed_samples(self, index_array):
     return batch_x, batch_y
 ```
 
-+3. Use `flow_from_directory` function in your source like this.
+* Use `flow_from_directory` function in your source like this.
 
 ```python
 from keras.preprocessing.image import ImageDataGenerator
@@ -92,7 +92,7 @@ train_generator2 = train_datagen.flow_from_directory(
 
 ```
 
-+4. Run `ex_cls.py --gpus 0`
+* Run `ex_cls.py --gpus 0`
 <br>
 
 ----
